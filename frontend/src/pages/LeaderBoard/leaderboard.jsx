@@ -316,6 +316,30 @@ function Leaderboard() {
   return (
     <div className="leaderboard-page">
       {/* ============================================================
+          WORK IN PROGRESS / MAINTENANCE NOTICE
+      ============================================================ */}
+      <div 
+        className="leaderboard-wip-notice"
+        style={{
+          backgroundColor: "#fff3cd",
+          color: "#856404",
+          border: "1px solid #ffeeba",
+          borderRadius: "8px",
+          padding: "12px 16px",
+          marginBottom: "20px",
+          display: "flex",
+          alignItems: "center",
+          gap: "10px",
+          fontWeight: "500"
+        }}
+      >
+        <span style={{ fontSize: "1.2rem" }}>🚧</span>
+        <div>
+          <strong>Under Maintenance:</strong> We are currently working on improving this page. Recent updates or profile changes may take up to 24 hours to reflect on the leaderboard.
+        </div>
+      </div>
+
+      {/* ============================================================
           PAGE HEADER
       ============================================================ */}
 
